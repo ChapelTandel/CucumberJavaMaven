@@ -1,0 +1,159 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-11T10:33:52.432Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7849850200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.Hooks.StartBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Register a new user",
+        "description": "",
+        "id": "app-form;register-a-new-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1017132500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.Hooks.CloseBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4043912500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on appForm page",
+            "match": {
+              "location": "Steps.AppFormSteps.iAmOnAppFormPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5917578200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I register a new user",
+            "match": {
+              "location": "Steps.AppFormSteps.iRegisterANewUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I see Thank you page",
+            "match": {
+              "location": "Steps.AppFormSteps.iSeeThankYouPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "App Form",
+    "description": "",
+    "id": "app-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/AppForm.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-11T10:33:52.442Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7841870200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.Hooks.StartBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Valid login",
+        "description": "",
+        "id": "login-feature;valid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 7386988000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.Hooks.CloseBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on login page",
+            "match": {
+              "location": "Steps.LoginSteps.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3989000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I submit a valid login",
+            "match": {
+              "location": "Steps.LoginSteps.iSubmitAValidLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am logged",
+            "match": {
+              "location": "Steps.LoginSteps.iAmLogged()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Login.feature",
+    "tags": []
+  }
+]

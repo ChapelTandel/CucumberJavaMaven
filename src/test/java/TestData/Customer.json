@@ -1,0 +1,13 @@
+{
+  "Application_FirstName" : "Joe",
+  "Application_LastName" : "Blogg",
+  "Application_Title": "Mr.",
+  "Application_CountryOfResidence": "Italy",
+  "Application_DateOfBirth": "01011980",
+  "Application_Email" : "testsomething@gmail.com",
+  "Application_PrimaryPhoneNumber": "07723465467",
+  "Application_Username" : "Username",
+  "Application_Password": "Qwerty123",
+  "Application_ProductSelection_SB-label": "True",
+  "btnSubmitStep1": "Click"
+}
